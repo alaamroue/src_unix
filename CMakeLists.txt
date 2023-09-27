@@ -13,13 +13,14 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 ##Using C++ 11
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED on)
+set(CMAKE_CXX_FLAGS "-fpermissive")
 
 ## Output variables from python
-message("Qt Include set to: " ${QT_DIR})
-message("Qwt Include set to: " ${QWT_INCLUDE_DIR})
-message("Qwt Library Release set to: " ${QWT_LIBRARY_RELEASE})
-message("Qwt Library Debug set to: " ${QWT_LIBRARY_DEBUG})
-message("Dlls Directory set to: " ${DLL_DIR})
+message("QT_DIR Include set to: " ${QT_DIR})
+message("QWT_INCLUDE_DIR Include set to: " ${QWT_INCLUDE_DIR})
+message("QWT_LIBRARY_RELEASE Library Release set to: " ${QWT_LIBRARY_RELEASE})
+message("QWT_LIBRARY_DEBUG set to: " ${QWT_LIBRARY_DEBUG})
+message("DLL_DIR set to: " ${DLL_DIR})
 message("")
 
 
