@@ -1,6 +1,6 @@
 [submodule "source_code/Vendors/RequiredDLLs"]
 	path = source_code/Vendors/RequiredDLLs
 	url = https://github.com/usefullibs/qt5dlls.git
-[submodule "source_code/Vendors/Qwt"]
-	path = source_code/Vendors/Qwt
+[submodule "source_code/Vendors/qwt"]
+	path = source_code/Vendors/qwt
 	url = https://github.com/usefullibs/qwt.git
