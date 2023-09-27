@@ -1,4 +1,4 @@
-name: Building Project
+name: Building For Linux
 
 on:
   push:
