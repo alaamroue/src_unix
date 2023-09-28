@@ -18,8 +18,8 @@ env:
   #DLL_DIR: ${{ github.workspace }}/source_code/Vendors/RequiredDLLs/
 
 jobs:
-  buildUsingCMake:
-    name: buildUsingCMakeJob
+  BuildForLinux:
+    name: Build for Linux
     runs-on: ubuntu-latest
 
     steps:

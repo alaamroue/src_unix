@@ -15,6 +15,20 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED on)
 set(CMAKE_CXX_FLAGS "-fpermissive")
 
+## Set Variables
+#set(QT_DIR "C:/Qt/5.12.11/msvc2017_64/")
+#set(QWT_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
+#set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+#set(QWT_LIBRARY_DEBUG "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+#set(DLL_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/RequiredDLLs/")
+
+
+#set(QT_DIR "/opt/Qt5.12.11/5.12.11/gcc_64/")
+#set(QWT_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
+#set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+#set(QWT_LIBRARY_DEBUG "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+#set(DLL_DIR "/opt/Qt5.12.11/5.12.11/gcc_64/lib/")
+
 ## Output variables from python
 message("QT_DIR Include set to: " ${QT_DIR})
 message("QWT_INCLUDE_DIR Include set to: " ${QWT_INCLUDE_DIR})
@@ -144,5 +158,10 @@ qt5_wrap_ui(UI_FILES ${UI_FILES})
 ## Copying dlls
 add_custom_command(TARGET ProMaIDeS POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
-        "${PROJECT_SOURCE_DIR}/source_code/Vendors/RequiredDLLs/$<CONFIGURATION>"
+        "${DLL_DIR}/$<CONFIGURATION>"
         $<TARGET_FILE_DIR:ProMaIDeS>)
+
+#add_custom_command(TARGET ProMaIDeS POST_BUILD
+#    COMMAND ${CMAKE_COMMAND} -E copy_directory
+#        "${DLL_DIR}"
+#        $<TARGET_FILE_DIR:ProMaIDeS>)

@@ -18,8 +18,8 @@
 #  DLL_DIR: ${{ github.workspace }}\source_code\Vendors\RequiredDLLs\
 #
 #jobs:
-#  buildUsingCMake:
-#    name: buildUsingCMakeJob
+#  BuildForWindows:
+#    name: Build for Windows
 #    runs-on: windows-latest
 #
 #    steps:
@@ -61,7 +61,7 @@
 #  ReleaseArtifact:
 #    name: Release Project
 #    runs-on: windows-latest
-#    needs: buildUsingCMake
+#    needs: BuildForWindows
 #    steps:
 #    - name: Download exe
 #      uses: actions/download-artifact@v3
