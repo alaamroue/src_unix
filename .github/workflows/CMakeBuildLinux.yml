@@ -67,7 +67,11 @@ jobs:
         export LD_LIBRARY_PATH=${{env.QT_DIR}}:${{env.QT_DIR}}/gcc_64/lib
         export OUTPUT=alaa-x86_64.AppImage
         find ${{ github.workspace }}/build/ -name \*.debug -delete
-        ./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ -e ${{env.UNIXNAME}} -d ${{ github.workspace }}/.github/workflows/ProMaIDes.desktop
+        ./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ -e ${{ github.workspace }}/build/${{env.UNIXNAME}} -d ${{ github.workspace }}/.github/workflows/ProMaIDes.desktop
         #./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ -e ${{env.UNIXNAME}} -i ${{env.UNIXNAME}}.png - --plugin qt
         # We don't need the bearer plugins (needed for Qt 5 only)
         #./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ -e ${{env.UNIXNAME}} -i ${{env.UNIXNAME}}.png - --output appimage
+
+    - name: Output Current Files
+      run: ls -R
+    
