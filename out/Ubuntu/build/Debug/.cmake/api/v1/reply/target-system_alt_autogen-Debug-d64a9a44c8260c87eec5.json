@@ -1,0 +1,93 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"source_code/system_alt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "system_cost::@a9ab13309f201dc819f1"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_cost_generate_ui_headers::@a9ab13309f201dc819f1"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_dam::@9ef0079354a8d957fcaa"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_fpl::@71e04eaa0850dad3bcf2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_hydraulic::@bbfff1d1383d19c0668d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_madm::@e1b075a90fb9262e1792"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_risk::@4aa29a729d510d8d3071"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_sys::@af11b0b9930d1b1ec33a"
+		}
+	],
+	"id" : "system_alt_autogen::@2880741384295a06286a",
+	"isGeneratorProvided" : true,
+	"name" : "system_alt_autogen",
+	"paths" : 
+	{
+		"build" : "source_code/system_alt",
+		"source" : "source_code/system_alt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/source_code/system_alt/CMakeFiles/system_alt_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/source_code/system_alt/CMakeFiles/system_alt_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

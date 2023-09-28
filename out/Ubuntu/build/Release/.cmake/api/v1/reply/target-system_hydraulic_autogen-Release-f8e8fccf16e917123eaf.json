@@ -1,0 +1,69 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"source_code/system_hydraulic/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "solver::@46c7a7f349d13443b8b2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_sys::@af11b0b9930d1b1ec33a"
+		}
+	],
+	"id" : "system_hydraulic_autogen::@bbfff1d1383d19c0668d",
+	"isGeneratorProvided" : true,
+	"name" : "system_hydraulic_autogen",
+	"paths" : 
+	{
+		"build" : "source_code/system_hydraulic",
+		"source" : "source_code/system_hydraulic"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/source_code/system_hydraulic/CMakeFiles/system_hydraulic_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/source_code/system_hydraulic/CMakeFiles/system_hydraulic_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

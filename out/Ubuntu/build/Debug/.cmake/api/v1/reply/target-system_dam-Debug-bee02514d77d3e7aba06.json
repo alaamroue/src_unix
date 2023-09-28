@@ -1,0 +1,1585 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "source_code/system_dam/libsystem_dam.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"target_include_directories",
+			"target_precompile_headers"
+		],
+		"files" : 
+		[
+			"source_code/system_dam/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 163,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fpermissive -std=gnu++11"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/ubunutu/.vs/src_unix/out/build/source_code/system_dam/CMakeFiles/system_dam.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "QWT_DLL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_dam"
+				},
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_dam/system_dam_autogen/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/economic"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/CI"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/general"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/ecologic"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/psycho_social"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/people"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/simple_count"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/gui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_hydraulic"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/general"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/solver"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/system"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/szenario"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/gui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/coupling"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/floodplain"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/groundwater"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/floodplain/elements"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/river"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/river/profile"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/coast"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/temperature"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_sys"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/exceptions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/geometrie_general"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui/resources"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSql"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSvg"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtXml"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 6,
+					"header" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/Dam_Headers_Precompiled.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fpermissive -std=gnu++11"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/ubunutu/.vs/src_unix/out/build/source_code/system_dam/CMakeFiles/system_dam.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "QWT_DLL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_dam"
+				},
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_dam/system_dam_autogen/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/economic"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/CI"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/general"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/ecologic"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/psycho_social"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/people"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/simple_count"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/gui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_hydraulic"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/general"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/solver"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/system"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/szenario"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/gui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/coupling"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/floodplain"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/groundwater"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/floodplain/elements"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/river"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/river/profile"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/coast"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/temperature"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_sys"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/exceptions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/geometrie_general"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui/resources"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSql"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSvg"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtXml"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 6,
+					"header" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/Dam_Headers_Precompiled.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "system_hydraulic::@bbfff1d1383d19c0668d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "solver::@46c7a7f349d13443b8b2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "system_sys::@af11b0b9930d1b1ec33a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_dam_autogen::@9ef0079354a8d957fcaa"
+		}
+	],
+	"id" : "system_dam::@9ef0079354a8d957fcaa",
+	"name" : "system_dam",
+	"nameOnDisk" : "libsystem_dam.a",
+	"paths" : 
+	{
+		"build" : "source_code/system_dam",
+		"source" : "source_code/system_dam"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				133
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/source_code/system_dam/system_dam_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "out/build/source_code/system_dam/CMakeFiles/system_dam.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Result_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Number_Raster_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Ecn_Func_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Btype_Func_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Btype_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Soil_Cost_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Soil_Erosion_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Pop_Function_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Pys_Categories_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Raster_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Raster_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Sc_Point_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Ci_Point_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Ci_Polygon_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/Dam_Damage_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/Dam_Headers_Precompiled.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/general/Dam_Hyd_Result_Raster.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/general/Dam_Hydimport_Element.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/economic/Dam_Ecn_Damage_Function.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/economic/Dam_Ecn_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/economic/Dam_Ecn_Element.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/economic/Dam_Ecn_Raster.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/general/Dam_Impact_Value_Floodplain.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/general/Dam_Impact_Values.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/general/Dam_Raster.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/general/_Dam_Element.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/general/_Dam_2value_Function.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/general/_Dam_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/general/Dam_Polygon.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Btype_Damage_Function.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Soil_Cost_Function.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Soil_Erosion_Function.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Btype_Element.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Soil_Element.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Btype_Raster.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Soil_Raster.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Btype.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/people/Dam_People_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/people/Dam_People_Raster.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/people/Dam_People_Element.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/people/Dam_People_Damage_Function.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/simple_count/Dam_Sc_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/simple_count/Dam_Sc_Point_Manager.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/simple_count/Dam_Sc_Subcategory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/simple_count/Dam_Sc_Point.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/CI/_Dam_CI_Element.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/CI/Dam_CI_Point.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/CI/Dam_CI_Polygon.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/CI/Dam_CI_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/CI/Dam_CI_Element_List.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Raster.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Function.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Element.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Density_Function.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Category.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Result_Summary_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Result_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Number_Raster_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Ecn_Func_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Btype_Func_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Btype_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Soil_Cost_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Soil_Erosion_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Pop_Function_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Pys_Categories_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Raster_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Raster_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Sc_Point_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Sc_Subcategory_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Ci_Point_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Ci_Polygon_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/Dam_Damage_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/general/Dam_Hyd_Result_Raster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/general/Dam_Hydimport_Element.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/economic/Dam_Ecn_Damage_Function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/economic/Dam_Ecn_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/economic/Dam_Ecn_Element.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/economic/Dam_Ecn_Raster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/general/Dam_Impact_Value_Floodplain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/general/Dam_Impact_Values.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/general/Dam_Raster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/general/_Dam_Element.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/general/_Dam_2value_Function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/general/_Dam_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/general/Dam_Polygon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Btype_Damage_Function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Soil_Cost_Function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Soil_Erosion_Function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Btype_Element.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Soil_Element.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Btype_Raster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Soil_Raster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/ecologic/Dam_Eco_Btype.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/people/Dam_People_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/people/Dam_People_Raster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/people/Dam_People_Element.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/people/Dam_People_Damage_Function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/simple_count/Dam_Sc_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/simple_count/Dam_Sc_Point_Manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/simple_count/Dam_Sc_Subcategory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/simple_count/Dam_Sc_Point.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/CI/_Dam_CI_Element.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/CI/Dam_CI_Point.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/CI/Dam_CI_Polygon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/CI/Dam_CI_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/CI/Dam_CI_Element_List.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Raster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Element.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Density_Function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/psycho_social/Dam_Pys_Category.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Result_Summary_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Result_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Number_Raster_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Ecn_Func_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Btype_Func_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Btype_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Soil_Cost_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Eco_Soil_Erosion_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Pop_Function_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Pys_Categories_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Raster_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Raster_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Sc_Point_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Ci_Point_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Ci_Polygon_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_dam/source_code/gui/DamGui_Sc_Subcategory_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "out/build/source_code/system_dam/CMakeFiles/system_dam.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,396 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "source_code/system_alt",
+					"jsonFile" : "directory-source_code.system_alt-Release-b3c0a54d8f0ce36c6f9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source_code/system_alt",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "source_code/system_cost",
+					"jsonFile" : "directory-source_code.system_cost-Release-e3cd7b5503c96d795164.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source_code/system_cost",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "source_code/system_dam",
+					"jsonFile" : "directory-source_code.system_dam-Release-1d1c11289a5c001a387b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source_code/system_dam",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "source_code/system_fpl",
+					"jsonFile" : "directory-source_code.system_fpl-Release-a45d18cc585d5517f876.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source_code/system_fpl",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "source_code/system_hydraulic",
+					"jsonFile" : "directory-source_code.system_hydraulic-Release-5edc2b8a55bf2e239322.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source_code/system_hydraulic",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "source_code/system_hydraulic/source_code/solver",
+					"jsonFile" : "directory-source_code.system_hydraulic.source_code.solver-Release-d34acd8782a02b54a99f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source_code/system_hydraulic/source_code/solver",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "source_code/system_madm",
+					"jsonFile" : "directory-source_code.system_madm-Release-2e4f4a34f8dfd9766ac9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source_code/system_madm",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "source_code/system_risk",
+					"jsonFile" : "directory-source_code.system_risk-Release-af3475600aa17516c2ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source_code/system_risk",
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "source_code/system_sys",
+					"jsonFile" : "directory-source_code.system_sys-Release-0dd57d0e3cf9a9ca5dcc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source_code/system_sys",
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "pro_Solution",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ProMaIDeS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProMaIDeS-Release-e4a3ed9cf613b87f0bde.json",
+					"name" : "ProMaIDeS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProMaIDeS_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProMaIDeS_autogen-Release-b93085c5643b943d6daf.json",
+					"name" : "ProMaIDeS_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "solver::@46c7a7f349d13443b8b2",
+					"jsonFile" : "target-solver-Release-ded1b6b99287f382dc29.json",
+					"name" : "solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "solver_autogen::@46c7a7f349d13443b8b2",
+					"jsonFile" : "target-solver_autogen-Release-13fe513da345c3dbca71.json",
+					"name" : "solver_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "system_alt::@2880741384295a06286a",
+					"jsonFile" : "target-system_alt-Release-44f9f8d025f85f912c64.json",
+					"name" : "system_alt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "system_alt_autogen::@2880741384295a06286a",
+					"jsonFile" : "target-system_alt_autogen-Release-d64a9a44c8260c87eec5.json",
+					"name" : "system_alt_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "system_alt_generate_ui_headers::@2880741384295a06286a",
+					"jsonFile" : "target-system_alt_generate_ui_headers-Release-2c3775710b60615a80e8.json",
+					"name" : "system_alt_generate_ui_headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "system_cost::@a9ab13309f201dc819f1",
+					"jsonFile" : "target-system_cost-Release-d0d2f9d30a7f7187275e.json",
+					"name" : "system_cost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "system_cost_autogen::@a9ab13309f201dc819f1",
+					"jsonFile" : "target-system_cost_autogen-Release-6348ee7f211d75000223.json",
+					"name" : "system_cost_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "system_cost_generate_ui_headers::@a9ab13309f201dc819f1",
+					"jsonFile" : "target-system_cost_generate_ui_headers-Release-0fe6a7db9370b3178484.json",
+					"name" : "system_cost_generate_ui_headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "system_dam::@9ef0079354a8d957fcaa",
+					"jsonFile" : "target-system_dam-Release-94e5c815ffc9b9dd9056.json",
+					"name" : "system_dam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "system_dam_autogen::@9ef0079354a8d957fcaa",
+					"jsonFile" : "target-system_dam_autogen-Release-38c0f6286a34cc4fd2be.json",
+					"name" : "system_dam_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "system_fpl::@71e04eaa0850dad3bcf2",
+					"jsonFile" : "target-system_fpl-Release-39ca34c0350f931d9660.json",
+					"name" : "system_fpl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "system_fpl_autogen::@71e04eaa0850dad3bcf2",
+					"jsonFile" : "target-system_fpl_autogen-Release-dac455b58a3c0f071e34.json",
+					"name" : "system_fpl_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "system_hydraulic::@bbfff1d1383d19c0668d",
+					"jsonFile" : "target-system_hydraulic-Release-9594715eebfe68ed2011.json",
+					"name" : "system_hydraulic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "system_hydraulic_autogen::@bbfff1d1383d19c0668d",
+					"jsonFile" : "target-system_hydraulic_autogen-Release-f8e8fccf16e917123eaf.json",
+					"name" : "system_hydraulic_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "system_madm::@e1b075a90fb9262e1792",
+					"jsonFile" : "target-system_madm-Release-0b51601e89f101c09dbd.json",
+					"name" : "system_madm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "system_madm_autogen::@e1b075a90fb9262e1792",
+					"jsonFile" : "target-system_madm_autogen-Release-f7ba22f5b192c02d8966.json",
+					"name" : "system_madm_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "system_risk::@4aa29a729d510d8d3071",
+					"jsonFile" : "target-system_risk-Release-9eebf8f48dd18ba1c11e.json",
+					"name" : "system_risk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "system_risk_autogen::@4aa29a729d510d8d3071",
+					"jsonFile" : "target-system_risk_autogen-Release-65a14bde37595631f3fc.json",
+					"name" : "system_risk_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "system_sys::@af11b0b9930d1b1ec33a",
+					"jsonFile" : "target-system_sys-Release-318b4181e1ce8eba9cf7.json",
+					"name" : "system_sys",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "system_sys_autogen::@af11b0b9930d1b1ec33a",
+					"jsonFile" : "target-system_sys_autogen-Release-00fe8aaac8f703c1ecd2.json",
+					"name" : "system_sys_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubunutu/.vs/src_unix/out/build",
+		"source" : "/home/ubunutu/.vs/src_unix"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1008 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "source_code/system_cost/libsystem_cost.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_dependencies",
+			"target_link_libraries",
+			"add_definitions",
+			"target_include_directories",
+			"target_precompile_headers"
+		],
+		"files" : 
+		[
+			"source_code/system_cost/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fpermissive -std=gnu++11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/ubunutu/.vs/src_unix/out/build/source_code/system_cost/CMakeFiles/system_cost.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QWT_DLL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_cost"
+				},
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_cost"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_cost/system_cost_autogen/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_cost/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_cost/source_code"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_cost/source_code/gui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_alt"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_alt/source_code"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_alt/source_code/gui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_alt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_hydraulic"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/general"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/solver"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/system"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/szenario"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/coupling"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/floodplain"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/groundwater"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/floodplain/elements"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/river"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/river/profile"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/coast"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/temperature"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_sys"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/database"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/exceptions"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/geometrie_general"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui/resources"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/Vendors/Qwt/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_dam"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/economic"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/CI"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/general"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/ecologic"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/psycho_social"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/people"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/simple_count"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_fpl"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/performance"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/random"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/geometrie_dike"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/dike"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/highground"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/wave_generation"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/slope_stability"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/landside_resistance"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/dune"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/gate"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_risk"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_risk/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_risk/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_risk/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSql"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSvg"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtXml"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 7,
+					"header" : "/home/ubunutu/.vs/src_unix/source_code/system_cost/source_code/Cost_Headers_Precompiled.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fpermissive -std=gnu++11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/ubunutu/.vs/src_unix/out/build/source_code/system_cost/CMakeFiles/system_cost.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QWT_DLL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_cost"
+				},
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_cost"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_cost/system_cost_autogen/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_cost/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_cost/source_code"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_cost/source_code/gui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_alt"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_alt/source_code"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_alt/source_code/gui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_alt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_hydraulic"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/general"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/solver"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/system"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/szenario"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/coupling"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/floodplain"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/groundwater"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/floodplain/elements"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/river"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/river/profile"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/coast"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_hydraulic/source_code/models/temperature"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_sys"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/database"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/exceptions"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/geometrie_general"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui/resources"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/Vendors/Qwt/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_dam"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/economic"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/CI"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/general"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/ecologic"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/psycho_social"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/people"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/simple_count"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_dam/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_fpl"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/performance"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/random"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/geometrie_dike"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/dike"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/highground"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/wave_generation"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/slope_stability"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/landside_resistance"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/dune"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_fpl/source_code/calculation/section_fpl/mechanisms/gate"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_risk"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_risk/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_risk/source_code"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_risk/source_code/gui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSql"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSvg"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtXml"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 7,
+					"header" : "/home/ubunutu/.vs/src_unix/source_code/system_cost/source_code/Cost_Headers_Precompiled.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "system_alt_generate_ui_headers::@2880741384295a06286a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "system_dam::@9ef0079354a8d957fcaa"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "system_fpl::@71e04eaa0850dad3bcf2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "system_hydraulic::@bbfff1d1383d19c0668d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "solver::@46c7a7f349d13443b8b2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "system_risk::@4aa29a729d510d8d3071"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "system_sys::@af11b0b9930d1b1ec33a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_cost_autogen::@a9ab13309f201dc819f1"
+		}
+	],
+	"id" : "system_cost::@a9ab13309f201dc819f1",
+	"name" : "system_cost",
+	"nameOnDisk" : "libsystem_cost.a",
+	"paths" : 
+	{
+		"build" : "source_code/system_cost",
+		"source" : "source_code/system_cost"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/source_code/system_cost/system_cost_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "out/build/source_code/system_cost/CMakeFiles/system_cost.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_cost/source_code/gui/CostGui_Alternative_Ecn_Cost_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_cost/source_code/Cost_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_cost/source_code/Cost_Headers_Precompiled.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_cost/source_code/gui/CostGui_Alternative_Ecn_Cost_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_cost/source_code/Cost_Ecn_Cost_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_cost/source_code/Cost_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_cost/source_code/gui/CostGui_Alternative_Ecn_Cost_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_cost/source_code/Cost_Ecn_Cost_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "out/build/source_code/system_cost/CMakeFiles/system_cost.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

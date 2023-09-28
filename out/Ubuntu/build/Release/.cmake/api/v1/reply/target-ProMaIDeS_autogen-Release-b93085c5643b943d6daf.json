@@ -1,0 +1,97 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "system_alt::@2880741384295a06286a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_cost::@a9ab13309f201dc819f1"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_dam::@9ef0079354a8d957fcaa"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_fpl::@71e04eaa0850dad3bcf2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_hydraulic::@bbfff1d1383d19c0668d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "solver::@46c7a7f349d13443b8b2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_madm::@e1b075a90fb9262e1792"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_risk::@4aa29a729d510d8d3071"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "system_sys::@af11b0b9930d1b1ec33a"
+		}
+	],
+	"id" : "ProMaIDeS_autogen::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ProMaIDeS_autogen",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/CMakeFiles/ProMaIDeS_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/CMakeFiles/ProMaIDeS_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,130 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"source_code/system_alt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "system_alt_generate_ui_headers::@2880741384295a06286a",
+	"name" : "system_alt_generate_ui_headers",
+	"paths" : 
+	{
+		"build" : "source_code/system_alt",
+		"source" : "source_code/system_alt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "out/build/source_code/system_alt/CMakeFiles/system_alt_generate_ui_headers",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/source_code/system_alt/CMakeFiles/system_alt_generate_ui_headers.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_Alternative_Base_On_Dia.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_Alternative_Info_Dia.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_Alternative_Info_Wid.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_Alternative_Type_Dia.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_Dam_Change_Function_Dia.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_Dam_Resettlement_Dia.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_File_Replacing_Wid.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_Id_Replacing_Wid.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_Measure_Dia.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "source_code/system_alt/source_code/gui/AltGui_Measure_Replacing_File_Dia.ui",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}
