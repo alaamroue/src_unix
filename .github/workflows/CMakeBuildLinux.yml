@@ -65,7 +65,7 @@ jobs:
         export EXTRA_QT_PLUGINS=svg
         export LD_LIBRARY_PATH=${{env.QT_DIR}}:${{env.QT_DIR}}/gcc_64/lib
         export OUTPUT=alaa-x86_64.AppImage
-        find AppDir -name \*.debug -delete
-        ./linuxdeploy-x86_64.AppImage --appdir AppDir --custom-apprun=dist/linux/AppRun --exclude-library "*libpython3*" --plugin qt
+        find ${{ github.workspace }}/build/ -name \*.debug -delete
+        ./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ --custom-apprun=dist/linux/AppRun --exclude-library "*libpython3*" --plugin qt
         # We don't need the bearer plugins (needed for Qt 5 only)
-        ./linuxdeploy-x86_64.AppImage --appdir AppDir --custom-apprun=dist/linux/AppRun --exclude-library "*libpython3*" --output appimage
+        ./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ --custom-apprun=dist/linux/AppRun --exclude-library "*libpython3*" --output appimage
