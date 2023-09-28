@@ -62,13 +62,13 @@ jobs:
           chmod +x linuxdeploy-plugin-qt-x86_64.AppImage
           
     - name: Output Current Files
-      run: ls -r ${{env.QT_DIR}}
+      run: ls ${{env.QT_DIR}}
 
     - name: '📦 Create AppImage'
       run: |
         #export EXTRA_QT_PLUGINS=svg
         export LD_LIBRARY_PATH=${{env.QT_DIR}}:${{env.QT_DIR}}/gcc_64/lib
-        export PATH=${{env.QT_DIR}}/gcc_64/lib
+        export PATH=${{env.QT_DIR}}/gcc_64/lib:$PATH
         export OUTPUT=alaa-x86_64.AppImage
         find ${{ github.workspace }}/build/ -name \*.debug -delete
         ./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ -e ${{ github.workspace }}/build/${{env.UNIXNAME}} -d ${{ github.workspace }}/.github/workflows/ProMaIDes.desktop --plugin qt
