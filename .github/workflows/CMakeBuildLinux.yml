@@ -11,6 +11,7 @@ on:
       - master
 
 env:
+  UNIXNAME: ProMaIDeS_vc
   BUILD_TYPE: Release
   QWT_INCLUDE_DIR: ${{ github.workspace }}/source_code/Vendors/Qwt/src
   QWT_LIBRARY_RELEASE: ${{ github.workspace }}/source_code/Vendors/Qwt/lib/libqwt.so
@@ -66,6 +67,7 @@ jobs:
         export LD_LIBRARY_PATH=${{env.QT_DIR}}:${{env.QT_DIR}}/gcc_64/lib
         export OUTPUT=alaa-x86_64.AppImage
         find ${{ github.workspace }}/build/ -name \*.debug -delete
-        ./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ --exclude-library "*libpython3*" --plugin qt
+        ./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ -e ${{env.UNIXNAME}} -d ${{ github.workspace }}/.github/workflows/ProMaIDes.desktop
+        #./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ -e ${{env.UNIXNAME}} -i ${{env.UNIXNAME}}.png - --plugin qt
         # We don't need the bearer plugins (needed for Qt 5 only)
-        ./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ --exclude-library "*libpython3*" --output appimage
+        #./linuxdeploy-x86_64.AppImage --appdir ${{ github.workspace }}/build/ -e ${{env.UNIXNAME}} -i ${{env.UNIXNAME}}.png - --output appimage
