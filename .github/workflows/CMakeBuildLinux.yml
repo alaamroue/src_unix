@@ -70,13 +70,12 @@ jobs:
         export EXTRA_QT_PLUGINS=gui:imageformats:platforms:svg
         #export EXTRA_PLATFORM_PLUGINS=
         export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${{env.Qt5_DIR}}/lib:${{ github.workspace }}/source_code/Vendors/Qwt/lib
-        export OUTPUT=alaa-x86_64.AppImage
+        export OUTPUT=${{env.UNIXNAME}-x86_64.AppImage
         #find ${{ github.workspace }}/build/ -name \*.debug -delete
 
         ./linuxdeploy-x86_64.AppImage --appdir build -e build/${{env.UNIXNAME}} -d source_code/ProMaIDes.desktop -i source_code/promaides.png --plugin qt
         ./linuxdeploy-x86_64.AppImage --appdir build --output appimage
-
-        mv linuxdeploy-x86_64.AppImage ${{env.UNIXNAME}}-x86_64.AppImage
+        
 
     - name: Output Current Files
       run: ls -R
@@ -106,7 +105,8 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         tag: GitHubActions
         file:  ./${{env.UNIXNAME}}-x86_64.AppImage
-        asset_name: ${{env.UNIXNAME}}-x86_64.AppImage-v${{github.run_number}}.AppImage
+        asset_name: ${{env.UNIXNAME}}-x86_64.AppImage
+        #asset_name: ${{env.UNIXNAME}}-x86_64-v${{github.run_number}}.AppImage
         overwrite: true
         prerelease: false
         body: "Generated Automatically by Github Actions"
