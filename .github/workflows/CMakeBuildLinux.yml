@@ -76,6 +76,39 @@ jobs:
         ./linuxdeploy-x86_64.AppImage --appdir build -e build/${{env.UNIXNAME}} -d ProMaIDes.desktop -i promaides.png --plugin qt
         ./linuxdeploy-x86_64.AppImage --appdir build --output appimage
 
+        mv linuxdeploy-x86_64.AppImage ${{env.UNIXNAME}}-x86_64.AppImage
+
     - name: Output Current Files
       run: ls -R
+
+    - name: Upload AppImage File
+      uses: actions/upload-artifact@v3
+      with:
+        name: AppImageArtifact
+        path: "${{env.UNIXNAME}}-x86_64.AppImage"
+
+  ReleaseArtifact:
+    name: Release Project
+    runs-on: ubuntu-latest
+    needs: BuildForLinux
+    steps:
+    - name: Download AppImage
+      uses: actions/download-artifact@v3
+      with:
+        name: AppImage
+        
+    - name: Output Current Files
+      run: ls -R
+      
+    - name: Add binaries to Release Tag
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        tag: GitHubActions
+        file:  ./${{env.UNIXNAME}}-x86_64.AppImage
+        asset_name: ${{env.UNIXNAME}}-x86_64.AppImage-v${{github.run_number}}.AppImage
+        overwrite: true
+        prerelease: false
+        body: "Generated Automatically by Github Actions"
+
     
