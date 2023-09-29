@@ -164,8 +164,8 @@ add_custom_command(TARGET ProMaIDeS POST_BUILD
 endif (WIN32)
 
 if (UNIX AND NOT APPLE)
-add_custom_command(TARGET ProMaIDeS POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy_directory
-        "${DLL_DIR}"
-        $<TARGET_FILE_DIR:ProMaIDeS>)
+#add_custom_command(TARGET ProMaIDeS POST_BUILD
+#    COMMAND ${CMAKE_COMMAND} -E copy_directory
+#        "${DLL_DIR}"
+#        $<TARGET_FILE_DIR:ProMaIDeS>)
 endif (UNIX AND NOT APPLE)
