@@ -66,11 +66,10 @@ jobs:
 
     - name: '📦 Create AppImage'
       run: |
-        export QMAKE=/opt/Qt5.12.11/5.12.11/gcc_64/bin/qmake
+        export QMAKE=${{env.QT_DIR}}/gcc_64/bin/qmake
         export EXTRA_QT_PLUGINS=gui:imageformats:platforms:svg
         #export EXTRA_PLATFORM_PLUGINS=
         export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${{env.QT_DIR}}/gcc_64/lib:${{env.QT_DIR}}/gcc_64/lib
-        echo $LD_LIBRARY_PATH
         export OUTPUT=alaa-x86_64.AppImage
         #find ${{ github.workspace }}/build/ -name \*.debug -delete
 
