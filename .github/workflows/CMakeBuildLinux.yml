@@ -73,7 +73,7 @@ jobs:
         export OUTPUT=alaa-x86_64.AppImage
         #find ${{ github.workspace }}/build/ -name \*.debug -delete
 
-        ./linuxdeploy-x86_64.AppImage --appdir build -e build/${{env.UNIXNAME}} -d ProMaIDes.desktop -i promaides.png --plugin qt
+        ./linuxdeploy-x86_64.AppImage --appdir build -e build/${{env.UNIXNAME}} -d source_code/ProMaIDes.desktop -i source_code/promaides.png --plugin qt
         ./linuxdeploy-x86_64.AppImage --appdir build --output appimage
 
         mv linuxdeploy-x86_64.AppImage ${{env.UNIXNAME}}-x86_64.AppImage
