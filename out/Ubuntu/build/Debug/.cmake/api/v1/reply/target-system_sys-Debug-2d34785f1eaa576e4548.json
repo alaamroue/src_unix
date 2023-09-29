@@ -1,0 +1,1845 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "source_code/system_sys/libsystem_sys.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"target_include_directories",
+			"target_precompile_headers"
+		],
+		"files" : 
+		[
+			"source_code/system_sys/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 230,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 241,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fpermissive -std=gnu++11"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/ubunutu/.vs/src_unix/out/build/source_code/system_sys/CMakeFiles/system_sys.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "QWT_DLL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_sys"
+				},
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_sys/system_sys_autogen/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/database"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/exceptions"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/geometrie_general"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui/resources"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSql"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSvg"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtXml"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 6,
+					"header" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/Sys_Headers_Precompiled.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fpermissive -std=gnu++11"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/ubunutu/.vs/src_unix/out/build/source_code/system_sys/CMakeFiles/system_sys.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_XML_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "QWT_DLL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_sys"
+				},
+				{
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/ubunutu/.vs/src_unix/out/build/source_code/system_sys/system_sys_autogen/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/database"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/exceptions"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/geometrie_general"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/gui/resources"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSql"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtSvg"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtPrintSupport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/Qt5.12.11/5.12.11/gcc_64/include/QtXml"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 6,
+					"header" : "/home/ubunutu/.vs/src_unix/source_code/system_sys/source_code/Sys_Headers_Precompiled.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "system_sys_autogen::@af11b0b9930d1b1ec33a"
+		}
+	],
+	"id" : "system_sys::@af11b0b9930d1b1ec33a",
+	"name" : "system_sys",
+	"nameOnDisk" : "libsystem_sys.a",
+	"paths" : 
+	{
+		"build" : "source_code/system_sys",
+		"source" : "source_code/system_sys"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				207
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/source_code/system_sys/system_sys_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 1,
+			"path" : "out/build/source_code/system_sys/CMakeFiles/system_sys.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Database_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Database_File_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Output_Flag_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Filechooser_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Multipathsettings_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Status_Bar_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Output_Logfile_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Welcome_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/database/Sys_Database_Projectbrowser_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_One_Filechooser_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Multi_Filechooser_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_New_Project_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Bool_BaseWid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Dbl_BaseWid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Enum_BaseWid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Int_BaseWid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_String_BaseWid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_ScientificDbl_BaseWid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_ScientificInt_BaseWid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Dbl_Prec_BaseWid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Dbl_Prec_BaseDia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Export_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Text_Searcher_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Text_Browser_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_File_Tree_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Delete_Logfile_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Result_Summary_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/_Sys_Abstract_Base_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Base_Edit_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Base_Expand_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_FallTree_BaseWid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Plot_Frame.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_PlotSettings_Dia.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_CurveSettings_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Sql_Help_Row_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Sql_Help_Condition_Wid.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/_Sys_Common_System.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/Common_Const.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/Sys_Common_Output.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/Sys_Memory_Count.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/Sys_Output_Division.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/Sys_Headers_Precompiled.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/Tables.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/Sys_Project.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/Sys_Project_Copier.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/Sys_Thread_Closing_Manager.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/database/Data_Base.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/database/Sys_Database_Browser.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/database/Sys_Database_Projectbrowser_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/database/Sys_Database_Project_Tree_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/database/Sys_Sqlmodel_Loader.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/database/Sys_AES_Algo.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/exceptions/_Sys_Exception.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/exceptions/Error.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/exceptions/Sys_Exception_Sender.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/exceptions/Warning.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/exceptions/Sys_Reconnect_Db_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/_Geo_Geometrie.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Circle.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Point.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/_Geo_Polygon.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Simple_Polygon.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Raster_Polygon.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Raster_Segment.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Raster_Straight_Line.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Polysegment.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Segment.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Straight_Line.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Ray.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Interception_Point_List.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Point_List.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Raster.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Convex_Polygon.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Complex_Polygon.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Polygon_Interception_Point.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Polygon_Interception_Point_List.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Database_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Database_File_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Output_Flag_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Status_Bar_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Filechooser_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Multipathsettings_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Output_Logfile_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Diverse_Text_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Welcome_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_One_Filechooser_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Multi_CheckBox_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Multi_Filechooser_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_New_Project_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Bool_BaseWid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Dbl_BaseWid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Enum_BaseWid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Int_BaseWid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_String_BaseWid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_ScientificDbl_BaseWid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_ScientificInt_BaseWid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Dbl_Prec_BaseWid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Plot_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Plot_Frame.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_PlotSettings_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Sql_Table_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Export_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Text_Searcher_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Text_Browser_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_File_Tree_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Delete_Logfile_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/_Sys_Result_Summary_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/_Sys_Data_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/_Sys_Abstract_Base_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_SpinBox_Delegate.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Base_Edit_Dia.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Base_Expand_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_ComboBox_Delegate.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_DoubleSpinBox_Delegate.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_CurveSettings_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Sql_Help_Row_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Sql_Help_Condition_Wid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Check_Combobox_Model.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Check_Combobox_View.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Letter_Button.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Custom_Plot_Picker.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/_Sys_Common_System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/Sys_Common_Output.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/Common_Function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/Sys_Memory_Count.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/Sys_Output_Division.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/Tables.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/Sys_Project_Copier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/Sys_Thread_Closing_Manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/Sys_Project.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/database/Data_Base.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/database/Sys_Database_Browser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/database/Sys_Database_Projectbrowser_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/database/Sys_Database_Project_Tree_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/database/Sys_Sqlmodel_Loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/database/Sys_AES_Algo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/exceptions/_Sys_Exception.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/exceptions/Error.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/exceptions/Sys_Exception_Sender.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/exceptions/Warning.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/exceptions/Sys_Reconnect_Db_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/_Geo_Geometrie.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Circle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Point.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/_Geo_Polygon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Simple_Polygon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Raster_Polygon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Raster_Segment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Raster_Straight_Line.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Polysegment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Segment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Straight_Line.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Ray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Interception_Point_List.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Point_List.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Raster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Convex_Polygon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Complex_Polygon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Polygon_Interception_Point.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/geometrie_general/Geo_Polygon_Interception_Point_List.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Database_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Database_File_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Output_Flag_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Status_Bar_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Filechooser_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Multipathsettings_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Output_Logfile_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Diverse_Text_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Welcome_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_One_Filechooser_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Multi_CheckBox_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Multi_Filechooser_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_New_Project_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Bool_BaseWid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Dbl_BaseWid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Enum_BaseWid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Int_BaseWid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_String_BaseWid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_ScientificDbl_BaseWid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_ScientificInt_BaseWid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Member_Dbl_Prec_BaseWid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Plot_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Plot_Frame.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_PlotSettings_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Sql_Table_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Export_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Text_Searcher_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Text_Browser_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_File_Tree_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Delete_Logfile_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/_Sys_Result_Summary_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/_Sys_Data_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/_Sys_Abstract_Base_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_SpinBox_Delegate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Base_Edit_Dia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Base_Expand_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_ComboBox_Delegate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_DoubleSpinBox_Delegate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_CurveSettings_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Sql_Help_Row_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Sql_Help_Condition_Wid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Check_Combobox_Model.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Check_Combobox_View.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Letter_Button.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source_code/system_sys/source_code/gui/Sys_Custom_Plot_Picker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "out/build/source_code/system_sys/CMakeFiles/system_sys.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
