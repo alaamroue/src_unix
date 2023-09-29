@@ -156,12 +156,16 @@ qt5_wrap_ui(UI_FILES ${UI_FILES})
 
 ######## POST BUILD STUFF ########
 ## Copying dlls
+if (WIN32)
 add_custom_command(TARGET ProMaIDeS POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
         "${DLL_DIR}/$<CONFIGURATION>"
         $<TARGET_FILE_DIR:ProMaIDeS>)
+endif (WIN32)
 
-#add_custom_command(TARGET ProMaIDeS POST_BUILD
-#    COMMAND ${CMAKE_COMMAND} -E copy_directory
-#        "${DLL_DIR}"
-#        $<TARGET_FILE_DIR:ProMaIDeS>)
+if (UNIX AND NOT APPLE)
+add_custom_command(TARGET ProMaIDeS POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${DLL_DIR}"
+        $<TARGET_FILE_DIR:ProMaIDeS>)
+endif (UNIX AND NOT APPLE)
