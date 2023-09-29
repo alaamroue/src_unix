@@ -1,22 +1,7 @@
 [Desktop Entry]
 Name=ProMaIDeS_vc
-Comment=Commit
 Exec=ProMaIDeS_vc
-Keywords=key1;key2;
-Icon=ProMaIDeS_vc
+Icon=ProMaIDeS
 Type=Application
 Terminal=false
 StartupNotify=true
-Categories=Utility;Cat2
-StartupWMClass=ProMaIDeS_vc
-Actions=Action1;Action2
-
-[Desktop Action Action1]
-Name=New Name
-Icon=new-pro
-Exec=ProMaIDeS_vc --action someaction1
-
-[Desktop Action Action2]
-Name=New Name2
-Icon=new-pro
-Exec=ProMaIDeS_vc --action someaction2
