@@ -95,7 +95,7 @@ jobs:
     - name: Download AppImage
       uses: actions/download-artifact@v3
       with:
-        name: AppImage
+        name: AppImageArtifact
         
     - name: Output Current Files
       run: ls -R
