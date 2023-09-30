@@ -16,11 +16,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED on)
 set(CMAKE_CXX_FLAGS "-fpermissive")
 
 ## Set Variables
-set(QT_DIR "C:/Qt/5.12.11/msvc2017_64/")
-set(QWT_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
-set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-set(QWT_LIBRARY_DEBUG "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-set(DLL_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/RequiredDLLs/")
+#set(QT_DIR "C:/Qt/5.12.11/msvc2017_64/")
+#set(QWT_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
+#set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+#set(QWT_LIBRARY_DEBUG "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+#set(DLL_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/RequiredDLLs/")
 
 
 #set(QT_DIR "/opt/Qt5.12.11/5.12.11/gcc_64/")
