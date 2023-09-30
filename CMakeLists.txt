@@ -16,11 +16,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED on)
 set(CMAKE_CXX_FLAGS "-fpermissive")
 
 ## Set Variables
-#set(QT_DIR "C:/Qt/5.12.11/msvc2017_64/")
-#set(QWT_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
-#set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-#set(QWT_LIBRARY_DEBUG "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-#set(DLL_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/RequiredDLLs/")
+set(QT_DIR "C:/Qt/5.12.11/msvc2017_64/")
+set(QWT_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
+set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+set(QWT_LIBRARY_DEBUG "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+set(DLL_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/RequiredDLLs/")
 
 
 #set(QT_DIR "/opt/Qt5.12.11/5.12.11/gcc_64/")
@@ -99,6 +99,10 @@ set(CMAKE_AUTOUIC ON)
 ##
 find_package(Qt5 COMPONENTS Core Sql Svg PrintSupport Widgets Gui Xml REQUIRED)
 
+if (UNIX AND NOT APPLE)
+find_package(Qt5 COMPONENTS REQUIRED X11Extras)
+endif()
+
 ## Create the ProMaIDeS Executable  
 add_executable(ProMaIDeS
     ${UI_FILES}
@@ -110,6 +114,17 @@ add_executable(ProMaIDeS
 )
 ##Change executable name
 set_target_properties(ProMaIDeS PROPERTIES OUTPUT_NAME ProMaIDeS_vc)
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ProMaIDeS)
+
+if (CMAKE_BUILD_TYPE MATCHES Debug)
+    message("Debug build configuration detected")
+    add_definitions(-DQT_DEBUG)
+    set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+    #set(CMAKE_BUILD_TYPE RelWithDebInfo)
+else()
+    message("Non-debug build configuration detected")
+endif()
+
 
 ## Adding Precompiled Headers
 target_precompile_headers(ProMaIDeS PRIVATE ${PrecompiledHeaders})

@@ -39,9 +39,9 @@ DLL_TEMP_DOWNLOAD = "TEMP_DLL"
 QT_VER_DEFAULT = "5.12.11"
 QT_COMPILER_DEFAULT = "msvc2017_64"
 
-DEFAULT_LOOKUP_FOLDERS_QT = [f"C:/Qt/{QT_VER_DEFAULT}/{QT_COMPILER_DEFAULT}/", f"C:/Qt/Qt{QT_VER_DEFAULT}/{QT_COMPILER_DEFAULT}/"]
-DEFAULT_LOOKUP_FOLDERS_QWT = ["./source_code/Vendors/Qwt/", "./source_code/Vendors/Qwt/qwt-6.1.0/", "C:/Qwt/qwt-6.1.0/"]
-DEFAULT_LOOKUP_FOLDERS_DLL = ["./source_code/Vendors/RequiredDLLs/"]
+DEFAULT_LOOKUP_FOLDERS_QT = [f"C:\\Qt\\{QT_VER_DEFAULT}\\{QT_COMPILER_DEFAULT}\\", f"C:\\Qt\\Qt{QT_VER_DEFAULT}\\{QT_COMPILER_DEFAULT}\\"]
+DEFAULT_LOOKUP_FOLDERS_QWT = [os.getcwd() + "\\source_code\\Vendors\\Qwt\\", os.getcwd() + "\\source_code\\Vendors\\Qwt\\qwt-6.1.0\\", "C:\\Qwt\\qwt-6.1.0\\"]
+DEFAULT_LOOKUP_FOLDERS_DLL = [os.getcwd() + "\\source_code\\Vendors\\RequiredDLLs\\"]
 
 DEFAULT_FILES_TO_CHECK_QT = ["bin/qmake.exe"]
 DEFAULT_FILES_TO_CHECK_QWT = ["x64/Release/qwt.dll"]

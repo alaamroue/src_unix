@@ -81,9 +81,9 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        tag: GitHubActions
+        tag: Continuous
         file: ./ProMaIDes.zip
-        asset_name: ProMaIDeS-Win10-x64-alpha-v${{github.run_number}}.zip
+        asset_name: ${{env.UNIXNAME}}-Win10-x64.zip
         overwrite: true
         prerelease: false
         body: "Generated Automatically by Github Actions"

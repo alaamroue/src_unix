@@ -261,6 +261,11 @@ target_link_libraries(system_sys
     	Qt5::Widgets
     	Qt5::Gui
     	Qt5::Xml
+		#Qt5::QSQLiteDriverPlugin You can't load plugin, so this shouldn't be used
+		#Qt5::QODBCDriverPlugin   You can't load plugin, so this shouldn't be used
+		#Qt5::QIBaseDriverPlugin  You can't load plugin, so this shouldn't be used
+		$<$<PLATFORM_ID:Windows>:Qt5::WinMain>
+		$<$<PLATFORM_ID:Linux>:Qt5::X11Extras>
       $<$<CONFIG:Release>:${QWT_LIBRARY_RELEASE}>
       $<$<CONFIG:Debug>:${QWT_LIBRARY_DEBUG}>
 )
