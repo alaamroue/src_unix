@@ -18,6 +18,8 @@
 #include <QTimer>
 #include <QProcess>
 #include <QStyleFactory>
+#include <QSystemTrayIcon>
+
 
 //system sys
 #include "Data_Base.h"
@@ -172,6 +174,12 @@ public:
 private:
 	//members
 	///Project manager
+	QSystemTrayIcon* trayIcon;
+	QMenu* trayContextMenu;
+	QAction* startDbAction;
+	QAction* stopDbAction;
+	QAction* exitAction;
+
 	Sys_Project project_manager;
 
 	///Pointer to the database
@@ -293,6 +301,18 @@ private:
 
 	///Allocate and connect the status bar widget
 	void statusbar_connect(void);
+
+	///Allocate and connect the system tray icon
+	void systemtray_connect(void);
+
+	///Start the postgresql database from the system tray context
+	void systemtray_startdb(void);
+
+	///Stop the postgresql database from the system tray context
+	void systemtray_stopdb(void);
+
+	///Delete system tray context
+	void delete_system_tray(void);
 
 	///Enable/disable menu and show/hide the data tabs in the dataview corresponding the project type, when a project is open
 	void enable_menu_project_open(const bool new_project);

@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.16)
+#CMake Minimum Limited by target_precompile_headers
 
 ##Create configs
 set(CMAKE_CONFIGURATION_TYPES Debug;Release)
@@ -15,31 +16,41 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED on)
 set(CMAKE_CXX_FLAGS "-fpermissive")
 
+
+if (WIN32)
+    message("Windows System Detected")
+    set(QWT_INCLUDE_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
+    set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/qwt.lib")
+    set(QWT_LIBRARY_DEBUG   "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/qwtd.lib")
+    set(STATIC_LIBS_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/Winx64/")
+endif (WIN32)
+
+if (UNIX AND NOT APPLE)
+    message("Linux System Detected")
+    set(QWT_INCLUDE_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
+    set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+    set(QWT_LIBRARY_DEBUG   "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+    set(STATIC_LIBS_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/linux/")
+endif (UNIX AND NOT APPLE)
+
+
 ## Set Variables
-#set(QT_DIR "C:/Qt/5.12.11/msvc2017_64/")
-#set(QWT_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
-#set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-#set(QWT_LIBRARY_DEBUG "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-#set(DLL_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/RequiredDLLs/")
-
-
-#set(QT_DIR "/opt/Qt5.12.11/5.12.11/gcc_64/")
-#set(QWT_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
-#set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-#set(QWT_LIBRARY_DEBUG "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-#set(DLL_DIR "/opt/Qt5.12.11/5.12.11/gcc_64/lib/")
+#set(QT_DIR "C:/Qt/5.15.2/msvc2019_64/")
+#set(QT_DIR "/home/ubunutu/Qt/5.15.2/gcc_64/")
 
 ## Output variables from python
 message("QT_DIR Include set to: " ${QT_DIR})
 message("QWT_INCLUDE_DIR Include set to: " ${QWT_INCLUDE_DIR})
 message("QWT_LIBRARY_RELEASE Library Release set to: " ${QWT_LIBRARY_RELEASE})
 message("QWT_LIBRARY_DEBUG set to: " ${QWT_LIBRARY_DEBUG})
-message("DLL_DIR set to: " ${DLL_DIR})
+message("STATIC_LIBS_DIR set to: " ${STATIC_LIBS_DIR})
 message("")
 
 
 #Add QT Path
-list(APPEND CMAKE_PREFIX_PATH ${QT_DIR})
+#list(APPEND CMAKE_PREFIX_PATH ${QT_DIR})
+set(CMAKE_PREFIX_PATH ${QT_DIR})
+message("CMAKE_PREFIX_PATH Include set to: " ${CMAKE_PREFIX_PATH})
 
 
 
@@ -174,13 +185,13 @@ qt5_wrap_ui(UI_FILES ${UI_FILES})
 if (WIN32)
 add_custom_command(TARGET ProMaIDeS POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
-        "${DLL_DIR}/$<CONFIGURATION>"
+        "${STATIC_LIBS_DIR}$<CONFIGURATION>"
         $<TARGET_FILE_DIR:ProMaIDeS>)
 endif (WIN32)
 
 if (UNIX AND NOT APPLE)
 #add_custom_command(TARGET ProMaIDeS POST_BUILD
 #    COMMAND ${CMAKE_COMMAND} -E copy_directory
-#        "${DLL_DIR}"
+#        "${STATIC_LIBS_DIR}"
 #        $<TARGET_FILE_DIR:ProMaIDeS>)
 endif (UNIX AND NOT APPLE)
