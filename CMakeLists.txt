@@ -31,6 +31,7 @@ if (UNIX AND NOT APPLE)
     set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
     set(QWT_LIBRARY_DEBUG   "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
     set(STATIC_LIBS_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/linux/")
+    SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${QT_DIR}/lib")
 endif (UNIX AND NOT APPLE)
 
 
@@ -49,7 +50,7 @@ message("")
 
 #Add QT Path
 #list(APPEND CMAKE_PREFIX_PATH ${QT_DIR})
-set(CMAKE_PREFIX_PATH ${QT_DIR})
+set(CMAKE_PREFIX_PATH "${QT_DIR}")
 message("CMAKE_PREFIX_PATH Include set to: " ${CMAKE_PREFIX_PATH})
 
 
@@ -108,7 +109,7 @@ set(CMAKE_AUTOUIC ON)
 ##
 ## Add the QT required libraries (Added later in system_sys)
 ##
-find_package(Qt5 COMPONENTS Core Sql Svg PrintSupport Widgets Gui Xml REQUIRED)
+find_package(Qt5 COMPONENTS Core Sql Svg OpenGL PrintSupport Widgets Gui Xml OpenGL REQUIRED)
 
 if (UNIX AND NOT APPLE)
 find_package(Qt5 COMPONENTS REQUIRED X11Extras)
