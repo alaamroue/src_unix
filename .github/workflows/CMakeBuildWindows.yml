@@ -11,6 +11,7 @@ on:
       - master
 
 env:
+  EXE_NAME: ProMaIDeS_vc
   BUILD_TYPE: Release
 
 jobs:
@@ -79,7 +80,7 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         tag: Continuous
         file: ./ProMaIDes.zip
-        asset_name: ${{env.UNIXNAME}}-Win10-x64.zip
+        asset_name: ${{env.EXE_NAME}}-Win10-x64.zip
         overwrite: true
         prerelease: false
         body: "Generated Automatically by Github Actions"

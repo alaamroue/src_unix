@@ -65,7 +65,7 @@ jobs:
         export EXTRA_QT_PLUGINS=gui:imageformats:platforms:svg
         #export EXTRA_PLATFORM_PLUGINS=
         export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${{env.Qt5_DIR}}/lib:${{ github.workspace }}/source_code/Vendors/Qwt/lib
-        export OUTPUT=${{env.UNIXNAME}}-x86_64.AppImage
+        export OUTPUT=${{env.UNIXNAME}}-Linux-x86_64.AppImage
         #find ${{ github.workspace }}/build/ -name \*.debug -delete
 
         ./linuxdeploy-x86_64.AppImage --appdir build -e build/${{env.UNIXNAME}} -d source_code/ProMaIDes.desktop -i source_code/promaides.png --plugin qt
@@ -79,7 +79,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: AppImageArtifact
-        path: "${{env.UNIXNAME}}-x86_64.AppImage"
+        path: "${{env.UNIXNAME}}-Linux-x86_64.AppImage"
 
   ReleaseArtifact:
     name: Release Project
@@ -100,8 +100,8 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         tag: Continuous
         file:  ./${{env.UNIXNAME}}-Linux-x86_64.AppImage
-        asset_name: ${{env.UNIXNAME}}-x86_64.AppImage
-        #asset_name: ${{env.UNIXNAME}}-x86_64-v${{github.run_number}}.AppImage
+        asset_name: ${{env.UNIXNAME}}-Linux-x86_64.AppImage
+        #asset_name: ${{env.UNIXNAME}}-Linux-x86_64-v${{github.run_number}}.AppImage
         overwrite: true
         prerelease: false
         body: "Generated Automatically by Github Actions"
