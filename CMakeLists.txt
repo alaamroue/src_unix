@@ -31,7 +31,7 @@ if (UNIX AND NOT APPLE)
     set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
     set(QWT_LIBRARY_DEBUG   "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
     set(STATIC_LIBS_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/linux/")
-    SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${QT_DIR}/lib")
+    #SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${QT_DIR}/lib")
 endif (UNIX AND NOT APPLE)
 
 
@@ -113,6 +113,7 @@ find_package(Qt5 COMPONENTS Core Sql Svg OpenGL PrintSupport Widgets Gui Xml Ope
 
 if (UNIX AND NOT APPLE)
 find_package(Qt5 COMPONENTS REQUIRED X11Extras)
+find_package(PostgreSQL REQUIRED)
 endif()
 
 ## Create the ProMaIDeS Executable  
@@ -191,8 +192,8 @@ add_custom_command(TARGET ProMaIDeS POST_BUILD
 endif (WIN32)
 
 if (UNIX AND NOT APPLE)
-#add_custom_command(TARGET ProMaIDeS POST_BUILD
-#    COMMAND ${CMAKE_COMMAND} -E copy_directory
-#        "${STATIC_LIBS_DIR}"
-#        $<TARGET_FILE_DIR:ProMaIDeS>)
+add_custom_command(TARGET ProMaIDeS POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${STATIC_LIBS_DIR}"
+        $<TARGET_FILE_DIR:ProMaIDeS>)
 endif (UNIX AND NOT APPLE)
