@@ -23,7 +23,7 @@ set(CMAKE_CXX_FLAGS "-fpermissive")
 
 ## Set Variables
 #set(QT_DIR "C:/Qt/5.15.2/msvc2019_64/")
-#set(QT_DIR "/home/ubunutu/Qt/5.15.2/gcc_64/")
+set(QT_DIR "/home/ubuntu/Qt/5.15.2/gcc_64/")
 
 if (WIN32)
     message("Windows System Detected")
@@ -39,14 +39,15 @@ if (UNIX AND NOT APPLE)
     set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
     set(QWT_LIBRARY_DEBUG   "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
     set(STATIC_LIBS_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/Linux/")
-    SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${QT_DIR}/lib")
+    #set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${QT_DIR}/lib")
+    #SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,/home/ubuntu/.vs/src_unix/source_code/Vendors/StaticLibs/Linux/")
     #SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${CMAKE_CURRENT_BINARY_DIR}/")
     #message("Libraries Path set to: " ${CMAKE_CURRENT_BINARY_DIR})
 endif (UNIX AND NOT APPLE)
 
 ## Output variables from python
-message("QT_DIR Include set to: " ${QT_DIR})
-message("QWT_INCLUDE_DIR Include set to: " ${QWT_INCLUDE_DIR})
+message("QT_DIR set to: " ${QT_DIR})
+message("QWT_INCLUDE_DIR set to: " ${QWT_INCLUDE_DIR})
 message("QWT_LIBRARY_RELEASE Library Release set to: " ${QWT_LIBRARY_RELEASE})
 message("QWT_LIBRARY_DEBUG set to: " ${QWT_LIBRARY_DEBUG})
 message("STATIC_LIBS_DIR set to: " ${STATIC_LIBS_DIR})
@@ -55,7 +56,7 @@ message("")
 
 #Add QT Path
 #list(APPEND CMAKE_PREFIX_PATH ${QT_DIR})
-set(CMAKE_PREFIX_PATH "${QT_DIR}")
+set(CMAKE_PREFIX_PATH ${QT_DIR} ";/home/ubuntu/.vs/src_unix/source_code/Vendors/StaticLibs/Linux/" )
 message("CMAKE_PREFIX_PATH Include set to: " ${CMAKE_PREFIX_PATH})
 
 
@@ -114,7 +115,7 @@ set(CMAKE_AUTOUIC ON)
 ##
 ## Add the QT required libraries (Added later in system_sys)
 ##
-find_package(Qt5 COMPONENTS Core Sql Svg OpenGL PrintSupport Widgets Gui Xml OpenGL REQUIRED)
+find_package(Qt5 COMPONENTS Core Sql Svg OpenGL PrintSupport Widgets Gui Xml REQUIRED)
 
 if (UNIX AND NOT APPLE)
 find_package(Qt5 COMPONENTS REQUIRED X11Extras)
@@ -130,6 +131,9 @@ add_executable(ProMaIDeS
     ${RCFiles}
     ${PrecompiledHeaders}
 )
+
+link_directories(${CMAKE_CURRENT_BINARY_DIR})
+
 ##Change executable name
 set_target_properties(ProMaIDeS PROPERTIES OUTPUT_NAME ${executable_name_after_build})
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ProMaIDeS)
