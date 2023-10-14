@@ -113,7 +113,7 @@ find_package(Qt5 COMPONENTS Core Sql Svg OpenGL PrintSupport Widgets Gui Xml Ope
 
 if (UNIX AND NOT APPLE)
 find_package(Qt5 COMPONENTS REQUIRED X11Extras)
-find_package(PostgreSQL REQUIRED)
+#find_package(PostgreSQL REQUIRED)
 endif()
 
 ## Create the ProMaIDeS Executable  
