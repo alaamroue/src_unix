@@ -30,7 +30,7 @@ jobs:
         version: '5.15.2'
 
     - name: Configure CMake
-      run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -DQT_DIR=${{env.QT_ROOT_DIR}}
+      run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -DQT_DIR=${{env.Qt5_DIR}}
     
     - name: Build
       # Build your program with the given configuration
@@ -39,6 +39,7 @@ jobs:
           mv build/${{env.UNIXNAME}} ./${{env.UNIXNAME}}
           rm -r build/*
           mv ${{env.UNIXNAME}} build/${{env.UNIXNAME}}
+          cp ${{github.workspace}}/source_code/Vendors/StaticLibs/Linux/* build/ -r
 
     
     - name: Output Current Files
@@ -55,9 +56,6 @@ jobs:
           wget https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
           chmod +x linuxdeploy-x86_64.AppImage
           chmod +x linuxdeploy-plugin-qt-x86_64.AppImage
-          
-    - name: Output Current Files
-      run: ls ${{env.Qt5_DIR}}
 
     - name: '📦 Create AppImage'
       run: |
