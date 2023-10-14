@@ -30,7 +30,7 @@ if (UNIX AND NOT APPLE)
     set(QWT_INCLUDE_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
     set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
     set(QWT_LIBRARY_DEBUG   "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-    set(STATIC_LIBS_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/linux/")
+    set(STATIC_LIBS_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/Linux/")
     #SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${QT_DIR}/lib")
 endif (UNIX AND NOT APPLE)
 

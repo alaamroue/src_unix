@@ -61,15 +61,21 @@ jobs:
 
     - name: '📦 Create AppImage'
       run: |
-        export QMAKE=${{env.Qt5_DIR}}/bin/qmake
-        export EXTRA_QT_PLUGINS=gui:imageformats:platforms:svg
-        #export EXTRA_PLATFORM_PLUGINS=
-        export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${{env.Qt5_DIR}}/lib:${{ github.workspace }}/source_code/Vendors/Qwt/lib
-        export OUTPUT=${{env.UNIXNAME}}-Linux-x86_64.AppImage
-        #find ${{ github.workspace }}/build/ -name \*.debug -delete
+        mkdir appdir
 
-        ./linuxdeploy-x86_64.AppImage --appdir build -e build/${{env.UNIXNAME}} -d source_code/ProMaIDes.desktop -i source_code/promaides.png --plugin qt
-        ./linuxdeploy-x86_64.AppImage --appdir build --output appimage
+        export QMAKE=${{env.Qt5_DIR}}/bin/qmake
+        #export EXTRA_QT_PLUGINS=gui:imageformats:platforms:svg
+        export LD_LIBRARY_PATH=${{ github.workspace }}/build/
+        export OUTPUT=${{env.UNIXNAME}}-Linux-x86_64.AppImage
+
+        ./linuxdeploy-x86_64.AppImage --appdir appdir -e build/${{env.UNIXNAME}} -d source_code/ProMaIDes.desktop -i source_code/promaides.png --plugin qt
+        
+        #Based on ltrace the sqlDriver needs to be next to the the executable even in the AppImage
+        #Not sure why that is
+        #TODO: Check why exectuable only loads the sql library if it is directly next to it. Is this by design?
+        cp build/sqldrivers appdir/usr/bin/ -r
+        
+        ./linuxdeploy-x86_64.AppImage --appdir appdir --output appimage
         
 
     - name: Output Current Files
