@@ -1,12 +1,17 @@
 cmake_minimum_required(VERSION 3.16)
 #CMake Minimum Limited by target_precompile_headers
 
+##Some Variables to Change:
+set(executable_name_after_build "ProMaIDeS_vc")
+set(solution_name "pro_Solution")
+
+
 ##Create configs
 set(CMAKE_CONFIGURATION_TYPES Debug;Release)
 
 ##Create Solution
 ##This will be the name of the .sln file
-project(pro_Solution)
+project(${solution_name})
 
 ##Folder used to hide All_BUILD & other targets
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
@@ -16,6 +21,9 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED on)
 set(CMAKE_CXX_FLAGS "-fpermissive")
 
+## Set Variables
+#set(QT_DIR "C:/Qt/5.15.2/msvc2019_64/")
+#set(QT_DIR "/home/ubunutu/Qt/5.15.2/gcc_64/")
 
 if (WIN32)
     message("Windows System Detected")
@@ -31,13 +39,10 @@ if (UNIX AND NOT APPLE)
     set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
     set(QWT_LIBRARY_DEBUG   "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
     set(STATIC_LIBS_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/Linux/")
-    #SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${QT_DIR}/lib")
+    SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${QT_DIR}/lib")
+    #SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${CMAKE_CURRENT_BINARY_DIR}/")
+    #message("Libraries Path set to: " ${CMAKE_CURRENT_BINARY_DIR})
 endif (UNIX AND NOT APPLE)
-
-
-## Set Variables
-#set(QT_DIR "C:/Qt/5.15.2/msvc2019_64/")
-#set(QT_DIR "/home/ubunutu/Qt/5.15.2/gcc_64/")
 
 ## Output variables from python
 message("QT_DIR Include set to: " ${QT_DIR})
@@ -126,7 +131,7 @@ add_executable(ProMaIDeS
     ${PrecompiledHeaders}
 )
 ##Change executable name
-set_target_properties(ProMaIDeS PROPERTIES OUTPUT_NAME ProMaIDeS_vc)
+set_target_properties(ProMaIDeS PROPERTIES OUTPUT_NAME ${executable_name_after_build})
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ProMaIDeS)
 
 if (CMAKE_BUILD_TYPE MATCHES Debug)
