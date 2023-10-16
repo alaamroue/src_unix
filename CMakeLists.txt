@@ -23,7 +23,7 @@ set(CMAKE_CXX_FLAGS "-fpermissive")
 
 ## Set Variables
 #set(QT_DIR "C:/Qt/5.15.2/msvc2019_64/")
-set(QT_DIR "/home/ubuntu/Qt/5.15.2/gcc_64/")
+#set(QT_DIR "/home/ubuntu/Qt/5.15.2/gcc_64/")
 
 if (WIN32)
     message("Windows System Detected")
@@ -36,13 +36,9 @@ endif (WIN32)
 if (UNIX AND NOT APPLE)
     message("Linux System Detected")
     set(QWT_INCLUDE_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/src/")
-    set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
-    set(QWT_LIBRARY_DEBUG   "${PROJECT_SOURCE_DIR}/source_code/Vendors/Qwt/lib/libqwt.so")
+    set(QWT_LIBRARY_RELEASE "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/Linux/libqwt.so")
+    set(QWT_LIBRARY_DEBUG   "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/Linux/libqwt.so")
     set(STATIC_LIBS_DIR     "${PROJECT_SOURCE_DIR}/source_code/Vendors/StaticLibs/Linux/")
-    #set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${QT_DIR}/lib")
-    #SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,/home/ubuntu/.vs/src_unix/source_code/Vendors/StaticLibs/Linux/")
-    #SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,${CMAKE_CURRENT_BINARY_DIR}/")
-    #message("Libraries Path set to: " ${CMAKE_CURRENT_BINARY_DIR})
 endif (UNIX AND NOT APPLE)
 
 ## Output variables from python
@@ -56,10 +52,8 @@ message("")
 
 #Add QT Path
 #list(APPEND CMAKE_PREFIX_PATH ${QT_DIR})
-set(CMAKE_PREFIX_PATH ${QT_DIR} ";/home/ubuntu/.vs/src_unix/source_code/Vendors/StaticLibs/Linux/" )
+set(CMAKE_PREFIX_PATH ${QT_DIR} )
 message("CMAKE_PREFIX_PATH Include set to: " ${CMAKE_PREFIX_PATH})
-
-
 
 
 ###########################################################################
@@ -134,8 +128,9 @@ add_executable(ProMaIDeS
 
 link_directories(${CMAKE_CURRENT_BINARY_DIR})
 
-##Change executable name
+#Change executable name
 set_target_properties(ProMaIDeS PROPERTIES OUTPUT_NAME ${executable_name_after_build})
+#Set Startup Project
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ProMaIDeS)
 
 if (CMAKE_BUILD_TYPE MATCHES Debug)
@@ -200,9 +195,11 @@ add_custom_command(TARGET ProMaIDeS POST_BUILD
         $<TARGET_FILE_DIR:ProMaIDeS>)
 endif (WIN32)
 
-if (UNIX AND NOT APPLE)
-add_custom_command(TARGET ProMaIDeS POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy_directory
-        "${STATIC_LIBS_DIR}"
-        $<TARGET_FILE_DIR:ProMaIDeS>)
-endif (UNIX AND NOT APPLE)
+# App Image should do its own copying
+# The libraries are linked dynamically, no need to copy them
+#if (UNIX AND NOT APPLE)
+#add_custom_command(TARGET ProMaIDeS POST_BUILD
+#    COMMAND ${CMAKE_COMMAND} -E copy_directory
+#        "${STATIC_LIBS_DIR}"
+#        $<TARGET_FILE_DIR:ProMaIDeS>)
+#endif (UNIX AND NOT APPLE)
